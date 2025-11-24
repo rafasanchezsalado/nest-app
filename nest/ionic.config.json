@@ -1,0 +1,7 @@
+{
+  "name": "Nest",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "vue-vite"
+}
