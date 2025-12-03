@@ -22,3 +22,8 @@ Install the Ionic CLI with npm:
 Get started with the ionic start command:
 
 `ionic start`
+
+The majority of Ionic app development can be spent right in the browser using the ionic serve command:
+
+`cd myApp`
+`ionic serve`

@@ -5,15 +5,15 @@ import TabsPage from '../views/TabsPage.vue'
 const routes: Array<RouteRecordRaw> = [
   {
     path: '/',
-    redirect: '/tabs/tab1'
+    redirect: '/nest-app/tab1'
   },
   {
-    path: '/tabs/',
+    path: '/nest-app/',
     component: TabsPage,
     children: [
       {
         path: '',
-        redirect: '/tabs/tab1'
+        redirect: '/nest-app/tab1'
       },
       {
         path: 'tab1',
