@@ -19,7 +19,7 @@
                     <ion-buttons slot="start">
                         <ion-button @click="cancel()">Cancel</ion-button>
                     </ion-buttons>
-                    <ion-title>Add task</ion-title>
+                    <ion-title class="ion-text-center">Add task</ion-title>
                     <ion-buttons slot="end">
                         <ion-button :strong="true" @click="confirm()">Confirm</ion-button>
                     </ion-buttons>

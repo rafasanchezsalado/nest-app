@@ -3,35 +3,36 @@
     <!-- <ion-text color="dark">
         <h1>Today</h1>
     </ion-text> -->
-    <ion-list mode="ios" lines="none">
+    <ion-list mode="ios" lines="none" class="item_list ">
         <ion-item>
-            <ion-label>Pokémon Yellow</ion-label>
+            <ion-text>Pokémon Yellow</ion-text>
         </ion-item>
         <ion-item>
-            <ion-label>Mega Man X</ion-label>
+            <ion-text>Mega Man X</ion-text>
         </ion-item>
         <ion-item>
-            <ion-label>The Legend of Zelda</ion-label>
+            <ion-text>The Legend of Zelda</ion-text>
         </ion-item>
         <ion-item>
-            <ion-label>Pac-Man</ion-label>
+            <ion-text>Pac-Man</ion-text>
         </ion-item>
         <ion-item>
-            <ion-label>Super Mario World</ion-label>
+            <ion-text>Super Mario World</ion-text>
         </ion-item>
     </ion-list>
     <br>
-    
+
 </template>
 
 <script lang="ts">
-import { IonItem, IonLabel, IonList, IonText } from '@ionic/vue';
+import { IonItem, IonList, IonText } from '@ionic/vue';
 export default {
     components: {
         IonItem,
-        IonLabel,
         IonList,
         IonText
     }
 }
 </script>
+
+<style scoped></style>
